@@ -1,5 +1,9 @@
 # THEEdotcom
 
+## PM Board
+
+[Board](https://trello.com/b/morYz2CS/badc)
+
 ## TODO
 
 - pm board
