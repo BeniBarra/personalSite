@@ -1,8 +1,9 @@
 import Link from "next/link";
 import linkData from '../../public/assets/json/links.json';
+import { JsonSourceFile } from "typescript";
 
 export default function linksList() {
-
+// TODO: figure out what datatype will let me make the json an argument.
   let adrses = linkData.adrses
   let linkList: any[] = [];
 
