@@ -1,0 +1,40 @@
+{ 
+  "adrses": [{
+    "link": "https://www.linkedin.com/in/ben-arno/",
+    "name": "LinkedIn"
+  },
+  {
+    "link": "https://docs.google.com/document/d/1Iq64C53Zp2SAHkpMzK5uKEWzHk946kExQeGjSHl7alw/edit#heading=h.sbziogryzzql",
+    "name": "Resume"
+  },
+  {
+    "link": "https://github.com/Barnord",
+    "name": "GitHub",
+    "xTitle": "Popular Repositories",
+    "xtra": [
+      {
+        "link": "https://github.com/Barnord/globetrotters",
+        "name": "GlobeTrotters"
+      },
+      {
+        "link": "https://github.com/Barnord/character-sonnet",
+        "name": "Character Sonnet"
+      },
+      {
+        "link": "https://github.com/Barnord/character-sonnet-api",
+        "name": "Character Sonnet API"
+      },
+      {
+        "link": "https://github.com/Barnord/RatersUI",
+        "name": "Raters of the Lost Business UI"
+      },
+      {
+        "link": "https://github.com/Barnord/PrototypeHero",
+        "name": "Prototype Hero"
+      },
+      {
+        "link": "https://github.com/Barnord/THEEdotcom",
+        "name": "This site!"
+      }
+    ]
+  }]}

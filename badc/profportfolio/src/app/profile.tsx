@@ -4,7 +4,7 @@ export default function Profile() {
   return(
     <>
       <Image
-        src='/assets/headshot.jpg'
+        src='/assets/pics/headshot.jpg'
         alt='me'
         width={200}
         height={400}
