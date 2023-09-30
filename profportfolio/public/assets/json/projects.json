@@ -3,21 +3,25 @@
     {
       "name": "Prototype Hero",
       "imgs": ["/assets/pics/DreadLord.PNG"],
+      "alts": [],
       "info": ["A two-dimensional side scrolling action adventure game.", "Built in C# with the Unity engine."]
     },
     {
       "name": "Raters of the Lost Business",
       "imgs": [],
+      "alts": [],
       "info": ["A web API that allows users to review various businesses, and receive reviews by text, also has a CLI interface.", "Built with ASP.NET, Twilio, and deployed through Azure."]
     },
     {
       "name": "Character Sonnet",
       "imgs": [],
+      "alts": [],
       "info": ["A Dungeons and Dragons 5e character builder and tracker to help users keep track of their characters while playing the game.", "Built with React, Express, MongoDB, with basic rules provided by the 5eAPI."]
     },
     {
       "name": "Globetrotters",
       "imgs": [],
+      "alts": [],
       "info": ["A European country guessing game.", "Built entirely with HTML, CSS, and Javascript."]
     }
   ]
