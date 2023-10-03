@@ -1,11 +1,11 @@
 // 'use client'
 import React, { useEffect } from 'react'
 import { Carousel, initTE } from "tw-elements"
-import projData from '../../public/assets/json/projects.json';
+// import projData from '../../public/assets/json/projects.json';
 import carouselItem from "./carouselItem";
 import Project from '../../public/assets/objects/proj.tsx'
 
-function Projects(projData: Project[]) {
+export default function Projects(projData: Project[]) {
   // useEffect(() => {
     // const init = async () => {
       // const { Datepicker, Input, initTE } = await import("tw-elements");
@@ -16,16 +16,16 @@ function Projects(projData: Project[]) {
   // }, []);
   return (
     <>
-    {/* <Carousel> */}
-      { projData.forEach(proj => {
+    <Carousel>
+      { projData.forEach((proj: Project) => {
         {carouselItem(proj)}
       })}
-    {/* </Carousel> */}
+    </Carousel>
     </>
   );
 };
 
-export default Projects;
+// export default Projects;
 
 // export default function Projects() {
 //   return(
