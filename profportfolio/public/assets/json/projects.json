@@ -1,28 +1,40 @@
 {
   "projects": [
     {
+      "id": "slide1",
       "name": "Prototype Hero",
       "imgs": ["/assets/pics/DreadLord.PNG"],
-      "alts": [],
-      "info": ["A two-dimensional side scrolling action adventure game.", "Built in C# with the Unity engine."]
+      "alts": ["https://placehold.co/600x350"],
+      "info": ["A two-dimensional side scrolling action adventure game.", "Built in C# with the Unity engine."],
+      "prevSlide": "slide4",
+      "nextSlide": "slide2"
     },
     {
+      "id": "slide2",
       "name": "Raters of the Lost Business",
-      "imgs": [],
+      "imgs": ["https://placehold.co/600x350"],
       "alts": [],
-      "info": ["A web API that allows users to review various businesses, and receive reviews by text, also has a CLI interface.", "Built with ASP.NET, Twilio, and deployed through Azure."]
+      "info": ["A web API that allows users to review various businesses, and receive reviews by text, also has a CLI interface.", "Built with ASP.NET, Twilio, and deployed through Azure."],
+      "prevSlide": "slide1",
+      "nextSlide": "slide3"
     },
     {
+      "id": "slide3",
       "name": "Character Sonnet",
-      "imgs": [],
+      "imgs": ["https://placehold.co/600x350"],
       "alts": [],
-      "info": ["A Dungeons and Dragons 5e character builder and tracker to help users keep track of their characters while playing the game.", "Built with React, Express, MongoDB, with basic rules provided by the 5eAPI."]
+      "info": ["A Dungeons and Dragons 5e character builder and tracker to help users keep track of their characters while playing the game.", "Built with React, Express, MongoDB, with basic rules provided by the 5eAPI."],
+      "prevSlide": "slide2",
+      "nextSlide": "slide4"
     },
     {
+      "id": "slide4",
       "name": "Globetrotters",
-      "imgs": [],
+      "imgs": ["https://placehold.co/600x350"],
       "alts": [],
-      "info": ["A European country guessing game.", "Built entirely with HTML, CSS, and Javascript."]
+      "info": ["A European country guessing game.", "Built entirely with HTML, CSS, and Javascript."],
+      "prevSlide": "slide3",
+      "nextSlide": "slide1"
     }
   ]
 }
